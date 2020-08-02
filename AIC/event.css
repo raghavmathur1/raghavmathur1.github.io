@@ -1,0 +1,67 @@
+.cont{
+	width: 100vw;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 180px;
+}
+
+.events{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 80vw;
+	margin: 20px auto;
+}
+
+.event{
+	width: 500px;
+	height: 370px;
+	background: #000;
+	background: url(ipr.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 7px;
+	box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.3);
+	position: relative;
+	margin-bottom: 50px; 
+}
+
+.wtext{
+	width: 80%;
+	height: 80%;
+	background: #fff;
+	position: absolute;
+	left: 20px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.ena{
+	background: #fff;
+	width: 100%;
+	position: absolute;
+	height: 100px;
+	bottom: 0;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.chan{
+	font-weight: 800;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: cera pro;
+	margin: 20px;
+
+}
+
+.year{
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: cera pro;
+	margin:-20px 20px;
+
+}
+
+.lt{
+	font-size: 19.5px;
+}

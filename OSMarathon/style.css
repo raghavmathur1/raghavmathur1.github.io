@@ -1,0 +1,299 @@
+body{
+	margin:0; 
+	font-family: cera pro;
+	background: #fefefe;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+}
+
+.sidebar{
+	position: fixed;
+	box-shadow: 5px 5px 20px 0 rgba(20,20,20,0.08);
+	left: 0;
+	height: 100%;
+	width: 300px;
+	background: #34D0B3;
+}
+
+.topbar{
+	position: fixed;
+	background: #fff;
+	box-shadow: 5px 5px 20px 0 rgba(20,20,20,0.08);
+	width: 100% ;
+	height: 80px;
+	z-index: 111;
+}
+
+.content{
+	margin-top: 80px;
+	width: 100%;
+	height: calc(100% - 80px);
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.full{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logout{
+	font-weight: 600;
+	font-size: 16px;
+	position: absolute;
+	right: 20px;
+	letter-spacing: 0.4px;
+}
+
+.lighter{
+	font-weight: 400;
+}
+
+.logo{
+	position: absolute;
+	width: 100px;
+	left: 0px;
+}
+
+.thead{
+	font-size: 18px;
+	font-weight: 800;
+	position: absolute;
+	left: 20px;
+}
+
+.block1{
+	width: 85%;
+	margin: 40px;
+	border-radius: 10px; 
+}
+
+.block2{
+	width: 85%;
+	margin: 20px;
+	border-radius: 10px; 
+}
+
+.heading{
+	position: relative;
+	font-size: 28px;
+	font-weight: 600;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.tasks{
+	margin-top: 20px;
+	box-shadow: 5px 5px 20px 0 rgba(20,20,20,0.08);
+	border-radius: 5px;
+	background: #fff;
+}
+
+.task2{
+	border: 0;
+}
+
+.button{
+	font-size: 14px;
+	font-weight: 400;
+	box-shadow: 2px 3px 20px 0 rgba(20,20,20,0.1);
+	color: #34D0B3;
+	background:  #fff;
+	padding: 10px 25px;
+	border-radius: 100px;
+	margin: 0 20px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.search{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+/*	border: 2px solid rgba(0,0,0, 0.1);
+*/	padding: 0 ;
+	font-family: cera pro;
+	font-weight: 500;
+	background: #fff;
+	border-radius: 100px;
+	padding-left: 45px;
+}
+
+.place{
+	position: absolute;
+	right: 0;
+	display: flex;
+	width: 80%;
+	flex-direction: row-reverse;
+}
+
+.icon{
+	width: 14px;
+	position: absolute;
+	left: 18px;
+}
+
+.sear{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	transition: all 0.5s ease;
+	background: #fff;
+	box-shadow: 5px 5px 20px 0 rgba(20,20,20,0.08);	
+	border-radius: 100px;
+}
+
+.taskn{
+	width: 14%;
+	padding-left: 2%;
+}
+
+.taskd{
+	width: 45%;
+}
+
+.taskt{
+	width: 11%;
+}
+
+.taskbas{
+	width: 15%;
+}
+
+.taska{
+	width: 14%;	
+}
+
+.sp{
+	font-size: 18px;
+}
+
+.less{
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bol{
+	font-weight: 600;
+}
+
+.tag{
+	padding: 10px 20px;
+	background: #f2f2f2;
+	border-radius: 100px;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.taska{
+	display: flex;
+	align-items: center;
+}
+
+.act{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	background: #f2f2f2;
+	margin-right: 10px;
+}
+
+.pages{
+	display: flex;
+}
+
+.circle{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	box-shadow: 5px 5px 15px 0 rgba(20,20,20,0.1);	
+	margin:20px 15px 30px 15px;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.green{
+	background: #34D0B3;
+	color: #fff;
+	font-weight: 500;
+}
+
+.red{
+	background: #FE5F55;
+	color: #fff;
+	font-weight: 500;
+}
+
+.sm{
+	width: 18px;
+}
+
+.fuller{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+}
+
+.description{
+	padding-left: 2%;
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0px;
+	transition: all 1s ease;
+}
+
+.text{
+	font-size: 15px;
+	font-weight: 400;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+.task{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	padding: 0 0px;
+	/*display: flex;
+	flex-direction: column;*/
+	max-height: 80px;
+	overflow-y: hidden;
+	transition: max-height 1s ease;
+}
+
+.task2{
+	border: 0;
+}
